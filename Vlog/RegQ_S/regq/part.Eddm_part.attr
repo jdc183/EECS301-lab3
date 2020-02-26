@@ -1,0 +1,12 @@
+A 5 u Eddm_part 5e5032e1aa88.03.7f.00.01.01.00.10.72 2 2 2 0
+V v 1 1 5e5032e1aa88.03.7f.00.01.01.01.10.72
+F f 1 "part.part_1"
+V v 2 1 5e5032e1b566.03.7f.00.01.01.00.10.72
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/regq" 1 mgc_symbol 5e5032e1aa12.03.7f.00.01.01.01.10.72 5e5032e1aa12.03.7f.00.01.01.00.10.72
+R csduv 1 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/schematic" 1 mgc_schematic 5e5032e1ab33.03.7f.00.01.01.01.10.72 5e5032e1ab33.03.7f.00.01.01.00.10.72
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/regq" 1 mgc_symbol 5e5032e1aa12.03.7f.00.01.01.01.10.72 5e5032e1aa12.03.7f.00.01.01.00.10.72

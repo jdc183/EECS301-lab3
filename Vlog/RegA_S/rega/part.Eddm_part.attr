@@ -1,0 +1,12 @@
+A 5 u Eddm_part 5e501e411008.03.7f.00.01.01.00.5d.d4 2 2 2 0
+V v 1 1 5e501e411008.03.7f.00.01.01.01.5d.d4
+F f 1 "part.part_1"
+V v 2 1 5e501e411c2c.03.7f.00.01.01.00.5d.d4
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/RegA_S/rega/rega" 1 mgc_symbol 5e501e410f8d.03.7f.00.01.01.01.5d.d4 5e501e410f8d.03.7f.00.01.01.00.5d.d4
+R csduv 1 "/home/jdc183/EECS301/lab3/Vlog/RegA_S/rega/schematic" 1 mgc_schematic 5e501e4110b9.03.7f.00.01.01.01.5d.d4 5e501e4110b9.03.7f.00.01.01.00.5d.d4
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/RegA_S/rega/rega" 1 mgc_symbol 5e501e410f8d.03.7f.00.01.01.01.5d.d4 5e501e410f8d.03.7f.00.01.01.00.5d.d4

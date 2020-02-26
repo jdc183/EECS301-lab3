@@ -1,0 +1,5 @@
+A 5 u mgc_symbol 5e50239d9cc2.03.7f.00.01.01.00.07.0f 1 2 1 0
+V v 1 1 5e50239d9cc2.03.7f.00.01.01.01.07.0f
+F f 1 "adder.smbl_1"
+O 1
+R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/Adder_S/adder/part" 1 Eddm_part 5e50239d9d2a.03.7f.00.01.01.01.07.0f 5e50239d9d2a.03.7f.00.01.01.00.07.0f

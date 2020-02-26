@@ -1,0 +1,81 @@
+spectrum: Setting EXEMPLAR to /mgc/Leonardo ...
+Messages will be logged to file '/home/jdc183/EECS301/lab3/Vlog/Adder/leospec.log'...
+LeonardoSpectrum Level 3 - 2009a.6 (Release Production Release, compiled Aug 17 2009 at 17:56:52)
+Copyright 1990-2009 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2009 Compuware Corporation
+
+Checking Security ...
+
+   *** Welcome to Interactive LeonardoSpectrum Level 3 Version 2009a.6 ***
+
+News :
+  * Enter "help" to get an overview of all commands
+  * Enter <command> -help  to get usage of each command
+
+Session history will be logged to file '/home/jdc183/EECS301/lab3/Vlog/Adder/leospec.his'
+LEONARDO{1}: Reading library file `/mgc/Leonardo/lib/ami05_typ.syn`...
+Library version = 3.0 Release : Patch (a) : 09/13/04
+Delays assume: Process=typical Temp= 27.0 C  Voltage=5.00 V  
+Info: setting encoding to auto
+Info, Command 'load_library' finished successfully
+LEONARDO{2}: LEONARDO{3}: LEONARDO{3}: -- Reading file '/home/jdc183/EECS301/lab3/Vlog/Adder/adder.v'...
+-- Loading module 'adder'
+-- Compiling root module 'adder'
+Info, Command 'read' finished successfully
+LEONARDO{4}: LEONARDO{4}: -- Boundary optimization.
+-- Start pre-optimization for design .work.adder.INTERFACE
+Info, Command 'pre_optimize' finished successfully
+LEONARDO{5}: -- Start pre-optimization for design .work.adder.INTERFACE
+Info, Command 'pre_optimize' finished successfully
+LEONARDO{6}: Info: The target technology was not selected, ami05_typ was automatically selected for you.
+-- Optimizing netlist .work.adder.INTERFACE
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+LEONARDO{7}: LEONARDO{7}: Info: The target technology was not selected, ami05_typ was automatically selected for you.
+.work.rega.INTERFACE not found
+LEONARDO{8}: .work.rega.INTERFACE not found
+LEONARDO{9}: Info: setting edif_write_arrays to FALSE
+FALSE
+LEONARDO{10}: LEONARDO{10}: -- Writing file Proc.vhd
+Info, Command 'write' finished successfully
+LEONARDO{11}: -- Writing file Proc.edf
+Info, Command 'write' finished successfully
+LEONARDO{12}: -- Writing file Proc.v
+Info, Command 'write' finished successfully
+LEONARDO{13}: LEONARDO{14}: -- Writing file Proc.sdf
+Info, Command 'write' finished successfully
+LEONARDO{15}: CriticalPath
+LEONARDO{16}: 
+
+
+                        Critical Path Report
+
+Critical path #1, (unconstrained path)
+NAME                               GATE              ARRIVAL              LOAD
+------------------------------------------------------------------------------
+ib(0)/                                         0.00  0.00 dn             0.05
+ix170/Y                            xnor2       0.32  0.32 up             0.06
+ix19/Y                             inv02       0.17  0.49 dn             0.01
+ix161/Y                            aoi22       0.49  0.98 up             0.06
+ix29/Y                             nor02_2x    0.34  1.32 dn             0.01
+ix31/Y                             ao21        0.66  1.97 dn             0.05
+ix157/Y                            aoi22       0.53  2.50 up             0.06
+ix41/Y                             xor2        0.79  3.29 dn             0.00
+sum(3)/                                        0.00  3.29 dn             0.00
+data arrival time                                    3.29
+
+data required time                                not specified
+------------------------------------------------------------------------------
+data required time                                not specified
+data arrival time                                    3.29
+                                                  ----------
+                                               unconstrained path
+------------------------------------------------------------------------------
+
+
+Info, Command 'report_delay' finished successfully
+LEONARDO{17}: // End >>> /home/jdc183/EECS301/lab3/Vlog/Adder/ <<<

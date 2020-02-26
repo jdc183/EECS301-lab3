@@ -1,0 +1,10 @@
+A 5 u mgc_schematic 5e5032e1ab33.03.7f.00.01.01.00.10.72 2 2 1 0
+V v 1 1 5e5032e1ab33.03.7f.00.01.01.01.10.72
+F o 0 ""
+V v 2 1 5e5032e1b5a0.03.7f.00.01.01.00.10.72
+F o 0 ""
+O 2
+R cspuv 0 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/schematic/sheet1" 1 mgc_sheet 5e5032e1ab76.03.7f.00.01.01.01.10.72 5e5032e1ab76.03.7f.00.01.01.00.10.72
+O 1
+R cspuv 0 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/schematic/sheet1" 1 mgc_sheet 5e5032e1ab76.03.7f.00.01.01.01.10.72 5e5032e1ab76.03.7f.00.01.01.00.10.72
+P "eddm__refer_state" "eddm__refer_floating"

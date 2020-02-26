@@ -1,0 +1,5 @@
+A 5 u mgc_symbol 5e501e410f8d.03.7f.00.01.01.00.5d.d4 1 2 1 0
+V v 1 1 5e501e410f8d.03.7f.00.01.01.01.5d.d4
+F f 1 "rega.smbl_1"
+O 1
+R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/RegA_S/rega/part" 1 Eddm_part 5e501e411008.03.7f.00.01.01.01.5d.d4 5e501e411008.03.7f.00.01.01.00.5d.d4

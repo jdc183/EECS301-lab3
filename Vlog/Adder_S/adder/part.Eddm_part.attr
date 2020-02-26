@@ -1,0 +1,12 @@
+A 5 u Eddm_part 5e50239d9d2a.03.7f.00.01.01.00.07.0f 2 2 2 0
+V v 1 1 5e50239d9d2a.03.7f.00.01.01.01.07.0f
+F f 1 "part.part_1"
+V v 2 1 5e50239da5f5.03.7f.00.01.01.00.07.0f
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/Adder_S/adder/adder" 1 mgc_symbol 5e50239d9cc2.03.7f.00.01.01.01.07.0f 5e50239d9cc2.03.7f.00.01.01.00.07.0f
+R csduv 1 "/home/jdc183/EECS301/lab3/Vlog/Adder_S/adder/schematic" 1 mgc_schematic 5e50239d9db2.03.7f.00.01.01.01.07.0f 5e50239d9db2.03.7f.00.01.01.00.07.0f
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/Adder_S/adder/adder" 1 mgc_symbol 5e50239d9cc2.03.7f.00.01.01.01.07.0f 5e50239d9cc2.03.7f.00.01.01.00.07.0f

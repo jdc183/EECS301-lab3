@@ -1,0 +1,23 @@
+# vsim -c testbench 
+# //  QuestaSim-64 6.5f Jun 16 2010 Linux 4.15.0-76-generic
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.testbench
+# Loading work.rega
+#                    0 x 0 0 1000 0100 0010 0001 x
+#                   10 0 0 0 1000 0100 0010 0001 x
+#                   20 1 0 1 1000 0100 0010 0001 4
+#                   30 0 0 1 1000 0100 0010 0001 4
+#                   40 1 1 0 1000 0100 0010 0001 2
+#                   50 0 1 0 1000 0100 0010 0001 2
+#                   60 1 1 1 1000 0100 0010 0001 1
+#                   70 0 1 1 1000 0100 0010 0001 1
+#                   80 1 1 1 1000 0100 0010 0001 1
+# invalid command name "%q"
