@@ -14,9 +14,7 @@ reg   cout;
 	begin
 		case({c1,c2})
 			Add: {cout,sum} = ia + ib;
-			Sub: {cout,sum} = ~ia + ib;
-			Inc: {cout,sum} = 4'b0001 + ib;
-			Dec: {cout,sum} = 4'b1111 + ib;
+			Sub: {cout,sum} = ~ia + ib + 4b'0001;
 		endcase
 	end
 
