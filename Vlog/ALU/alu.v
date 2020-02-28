@@ -8,7 +8,7 @@ output   cout;
 reg   cout;
 
 
-	parameter	Add=2'b00, Sub=2'b01, Inc=2'b10, Dec=2'b11;
+	parameter	Add=2'b00, Sub=2'b01;
 
 	always @( c1 or c2 or ia or ib)
 	begin
