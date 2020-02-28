@@ -1,12 +1,16 @@
-A 5 u Eddm_part 5e5032e1aa88.03.7f.00.01.01.00.10.72 2 2 2 0
-V v 1 1 5e5032e1aa88.03.7f.00.01.01.01.10.72
-F f 1 "part.part_1"
-V v 2 1 5e5032e1b566.03.7f.00.01.01.00.10.72
-F f 2 "part.part_2"
-O 2
+A 5 u Eddm_part 5e5032e1aa88.03.7f.00.01.01.00.10.72 5 2 4 0
+V v 3 1 5e5926a8edb7.03.7f.00.01.01.00.51.e8
+F f 3 "part.part_3"
+V v 4 1 5e5926a98583.03.7f.00.01.01.00.51.fa
+F f 4 "part.part_4"
+V v 5 1 5e5926a98ee6.03.7f.00.01.01.00.51.fa
+F f 5 "part.part_5"
+O 5
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/regq" 1 mgc_symbol 5e5032e1aa12.03.7f.00.01.01.01.10.72 5e5032e1aa12.03.7f.00.01.01.00.10.72
-R csduv 1 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/schematic" 1 mgc_schematic 5e5032e1ab33.03.7f.00.01.01.01.10.72 5e5032e1ab33.03.7f.00.01.01.00.10.72
-O 1
+R csduv 2 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/regq" 1 mgc_symbol 5e5926a984c6.03.7f.00.01.01.01.51.fa 5e5926a984c6.03.7f.00.01.01.00.51.fa
+R csduv 3 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/schematic" 1 mgc_schematic 5e5926a985f7.03.7f.00.01.01.01.51.fa 5e5926a985f7.03.7f.00.01.01.00.51.fa
+O 4
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/regq" 1 mgc_symbol 5e5032e1aa12.03.7f.00.01.01.01.10.72 5e5032e1aa12.03.7f.00.01.01.00.10.72
+R csduv 2 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/regq" 1 mgc_symbol 5e5926a984c6.03.7f.00.01.01.01.51.fa 5e5926a984c6.03.7f.00.01.01.00.51.fa
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"

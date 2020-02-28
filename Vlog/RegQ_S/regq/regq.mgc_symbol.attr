@@ -1,5 +1,5 @@
-A 5 u mgc_symbol 5e5032e1aa12.03.7f.00.01.01.00.10.72 1 2 1 0
-V v 1 1 5e5032e1aa12.03.7f.00.01.01.01.10.72
+A 5 u mgc_symbol 5e5926a984c6.03.7f.00.01.01.00.51.fa 1 2 1 0
+V v 1 1 5e5926a984c6.03.7f.00.01.01.01.51.fa
 F f 1 "regq.smbl_1"
 O 1
-R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/part" 1 Eddm_part 5e5032e1aa88.03.7f.00.01.01.01.10.72 5e5032e1aa88.03.7f.00.01.01.00.10.72
+R csduv 0 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/part" 4 Eddm_part 5e5926a98583.03.7f.00.01.01.00.51.fa 5e5032e1aa88.03.7f.00.01.01.00.10.72

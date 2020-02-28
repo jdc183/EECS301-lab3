@@ -4,7 +4,7 @@
  (keywordMap (keywordLevel 0))
  (status 
   (written 
-   (timestamp 2020 02 21 19 10 33)
+   (timestamp 2020 02 28 14 38 09)
    (program "LeonardoSpectrum Level 3" (version "2009a.6"))
    (author "Mentor Graphics")))
  (external PRIMITIVES 
@@ -322,26 +322,26 @@
      (port clk (direction INPUT))
      (port c1 (direction INPUT))
      (port c2 (direction INPUT))
-     (port (rename ia_3_ "ia(3)") (direction INPUT))
-     (port (rename ia_2_ "ia(2)") (direction INPUT))
-     (port (rename ia_1_ "ia(1)") (direction INPUT))
-     (port (rename ia_0_ "ia(0)") (direction INPUT))
-     (port (rename ib_3_ "ib(3)") (direction INPUT))
-     (port (rename ib_2_ "ib(2)") (direction INPUT))
-     (port (rename ib_1_ "ib(1)") (direction INPUT))
-     (port (rename ib_0_ "ib(0)") (direction INPUT))
-     (port (rename ic_3_ "ic(3)") (direction INPUT))
-     (port (rename ic_2_ "ic(2)") (direction INPUT))
-     (port (rename ic_1_ "ic(1)") (direction INPUT))
-     (port (rename ic_0_ "ic(0)") (direction INPUT))
-     (port (rename id_3_ "id(3)") (direction INPUT))
-     (port (rename id_2_ "id(2)") (direction INPUT))
-     (port (rename id_1_ "id(1)") (direction INPUT))
-     (port (rename id_0_ "id(0)") (direction INPUT))
-     (port (rename q_3_ "q(3)") (direction OUTPUT))
-     (port (rename q_2_ "q(2)") (direction OUTPUT))
-     (port (rename q_1_ "q(1)") (direction OUTPUT))
-     (port (rename q_0_ "q(0)") (direction OUTPUT)))
+     (port ia0 (direction INPUT))
+     (port ia1 (direction INPUT))
+     (port ia2 (direction INPUT))
+     (port ia3 (direction INPUT))
+     (port ib0 (direction INPUT))
+     (port ib1 (direction INPUT))
+     (port ib2 (direction INPUT))
+     (port ib3 (direction INPUT))
+     (port ic0 (direction INPUT))
+     (port ic1 (direction INPUT))
+     (port ic2 (direction INPUT))
+     (port ic3 (direction INPUT))
+     (port id0 (direction INPUT))
+     (port id1 (direction INPUT))
+     (port id2 (direction INPUT))
+     (port id3 (direction INPUT))
+     (port q0 (direction OUTPUT))
+     (port q1 (direction OUTPUT))
+     (port q2 (direction OUTPUT))
+     (port q3 (direction OUTPUT)))
     (contents 
      (instance (rename reg_q_0_ "reg_q(0)") (viewRef NETLIST  (cellRef dff (libraryRef ami05_typ ))))
      (instance ix29 (viewRef NETLIST  (cellRef nand02_2x (libraryRef ami05_typ ))))
@@ -393,85 +393,85 @@
        (portRef A2 (instanceRef ix162 ))
        (portRef A2 (instanceRef ix164 ))
        (portRef A0 (instanceRef ix3 ))))
-     (net (rename ia_3_ "ia(3)") 
+     (net ia0 
       (joined 
-       (portRef ia_3_ )
+       (portRef ia0 )
        (portRef B0 (instanceRef ix162 ))))
-     (net (rename ia_2_ "ia(2)") 
+     (net ia1 
       (joined 
-       (portRef ia_2_ )
+       (portRef ia1 )
        (portRef B0 (instanceRef ix155 ))))
-     (net (rename ia_1_ "ia(1)") 
+     (net ia2 
       (joined 
-       (portRef ia_1_ )
+       (portRef ia2 )
        (portRef B0 (instanceRef ix148 ))))
-     (net (rename ia_0_ "ia(0)") 
+     (net ia3 
       (joined 
-       (portRef ia_0_ )
+       (portRef ia3 )
        (portRef B0 (instanceRef ix137 ))))
-     (net (rename ib_3_ "ib(3)") 
+     (net ib0 
       (joined 
-       (portRef ib_3_ )
+       (portRef ib0 )
        (portRef A0 (instanceRef ix164 ))))
-     (net (rename ib_2_ "ib(2)") 
+     (net ib1 
       (joined 
-       (portRef ib_2_ )
+       (portRef ib1 )
        (portRef A0 (instanceRef ix157 ))))
-     (net (rename ib_1_ "ib(1)") 
+     (net ib2 
       (joined 
-       (portRef ib_1_ )
+       (portRef ib2 )
        (portRef A0 (instanceRef ix150 ))))
-     (net (rename ib_0_ "ib(0)") 
+     (net ib3 
       (joined 
-       (portRef ib_0_ )
+       (portRef ib3 )
        (portRef A0 (instanceRef ix140 ))))
-     (net (rename ic_3_ "ic(3)") 
+     (net ic0 
       (joined 
-       (portRef ic_3_ )
+       (portRef ic0 )
        (portRef B0 (instanceRef ix164 ))))
-     (net (rename ic_2_ "ic(2)") 
+     (net ic1 
       (joined 
-       (portRef ic_2_ )
+       (portRef ic1 )
        (portRef B0 (instanceRef ix157 ))))
-     (net (rename ic_1_ "ic(1)") 
+     (net ic2 
       (joined 
-       (portRef ic_1_ )
+       (portRef ic2 )
        (portRef B0 (instanceRef ix150 ))))
-     (net (rename ic_0_ "ic(0)") 
+     (net ic3 
       (joined 
-       (portRef ic_0_ )
+       (portRef ic3 )
        (portRef B0 (instanceRef ix140 ))))
-     (net (rename id_3_ "id(3)") 
+     (net id0 
       (joined 
-       (portRef id_3_ )
+       (portRef id0 )
        (portRef A0 (instanceRef ix162 ))))
-     (net (rename id_2_ "id(2)") 
+     (net id1 
       (joined 
-       (portRef id_2_ )
+       (portRef id1 )
        (portRef A0 (instanceRef ix155 ))))
-     (net (rename id_1_ "id(1)") 
+     (net id2 
       (joined 
-       (portRef id_1_ )
+       (portRef id2 )
        (portRef A0 (instanceRef ix148 ))))
-     (net (rename id_0_ "id(0)") 
+     (net id3 
       (joined 
-       (portRef id_0_ )
+       (portRef id3 )
        (portRef A0 (instanceRef ix137 ))))
-     (net (rename q_3_ "q(3)") 
+     (net q0 
       (joined 
-       (portRef q_3_ )
+       (portRef q0 )
        (portRef Q (instanceRef reg_q_3_ ))))
-     (net (rename q_2_ "q(2)") 
+     (net q1 
       (joined 
-       (portRef q_2_ )
+       (portRef q1 )
        (portRef Q (instanceRef reg_q_2_ ))))
-     (net (rename q_1_ "q(1)") 
+     (net q2 
       (joined 
-       (portRef q_1_ )
+       (portRef q2 )
        (portRef Q (instanceRef reg_q_1_ ))))
-     (net (rename q_0_ "q(0)") 
+     (net q3 
       (joined 
-       (portRef q_0_ )
+       (portRef q3 )
        (portRef Q (instanceRef reg_q_0_ ))))
      (net nx2 
       (joined 

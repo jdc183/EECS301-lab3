@@ -11,10 +11,25 @@ entity regq is
         clk             : in     vl_logic;
         c1              : in     vl_logic;
         c2              : in     vl_logic;
-        ia              : in     vl_logic_vector(3 downto 0);
-        ib              : in     vl_logic_vector(3 downto 0);
-        ic              : in     vl_logic_vector(3 downto 0);
-        id              : in     vl_logic_vector(3 downto 0);
-        q               : out    vl_logic_vector(3 downto 0)
+        ia0             : in     vl_logic;
+        ia1             : in     vl_logic;
+        ia2             : in     vl_logic;
+        ia3             : in     vl_logic;
+        ib0             : in     vl_logic;
+        ib1             : in     vl_logic;
+        ib2             : in     vl_logic;
+        ib3             : in     vl_logic;
+        ic0             : in     vl_logic;
+        ic1             : in     vl_logic;
+        ic2             : in     vl_logic;
+        ic3             : in     vl_logic;
+        id0             : in     vl_logic;
+        id1             : in     vl_logic;
+        id2             : in     vl_logic;
+        id3             : in     vl_logic;
+        q0              : out    vl_logic;
+        q1              : out    vl_logic;
+        q2              : out    vl_logic;
+        q3              : out    vl_logic
     );
 end regq;

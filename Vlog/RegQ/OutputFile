@@ -21,7 +21,7 @@ Info, Command 'load_library' finished successfully
 LEONARDO{2}: LEONARDO{3}: LEONARDO{3}: -- Reading file '/home/jdc183/EECS301/lab3/Vlog/RegQ/regq.v'...
 -- Loading module 'regq'
 -- Compiling root module 'regq'
-"/home/jdc183/EECS301/lab3/Vlog/RegQ/regq.v",line 15: Info, case choices are mutually exclusive; inferring parallel case.
+"/home/jdc183/EECS301/lab3/Vlog/RegQ/regq.v",line 20: Info, case choices are mutually exclusive; inferring parallel case.
 Info, Command 'read' finished successfully
 LEONARDO{4}: LEONARDO{4}: -- Boundary optimization.
 -- Start pre-optimization for design .work.regq.INTERFACE
@@ -38,8 +38,16 @@ LEONARDO{6}: Info: The target technology was not selected, ami05_typ was automat
 Re-checking DRC after adjustments
 Info, Command 'optimize' finished successfully
 LEONARDO{7}: LEONARDO{7}: Info: The target technology was not selected, ami05_typ was automatically selected for you.
-.work.rega.INTERFACE not found
-LEONARDO{8}: .work.rega.INTERFACE not found
+-- Optimizing netlist .work.regq.INTERFACE
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+LEONARDO{8}: -- Start timing optimization for design .work.regq.INTERFACE
+No critical paths to optimize at this level
+Info, Command 'optimize_timing' finished successfully
 LEONARDO{9}: Info: setting edif_write_arrays to FALSE
 FALSE
 LEONARDO{10}: LEONARDO{10}: -- Writing file Proc.vhd

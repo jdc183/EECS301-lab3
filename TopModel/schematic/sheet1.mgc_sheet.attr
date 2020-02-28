@@ -1,13 +1,22 @@
-A 5 u mgc_sheet 5e501f14a802.03.7f.00.01.01.00.61.fa 5 2 9 0
-V v 3 2 5e5034a6800f.03.7f.00.01.01.00.0f.90
-F f 3 "sheet1.ssht_3"
-F f 3 "sheet1.sgfx_3"
+A 5 u mgc_sheet 5e501f14a802.03.7f.00.01.01.00.61.fa 6 2 11 0
 V v 4 2 5e503612529f.03.7f.00.01.01.00.0f.90
 F f 4 "sheet1.ssht_4"
 F f 4 "sheet1.sgfx_4"
 V v 5 2 5e568be021c0.03.7f.00.01.01.00.62.70
 F f 5 "sheet1.ssht_5"
 F f 5 "sheet1.sgfx_5"
+V v 6 2 5e592630dab5.03.7f.00.01.01.00.4a.b1
+F f 6 "sheet1.ssht_6"
+F f 6 "sheet1.sgfx_6"
+O 6
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/jdc183/EECS301/lab3/TopModel/schematic" 1 mgc_schematic 5e501f14a7a5.03.7f.00.01.01.01.61.fa 5e501f14a7a5.03.7f.00.01.01.00.61.fa
+R csduv 1 "/home/jdc183/EECS301/lab3/Vlog/RegA_S/rega/part" 2 Eddm_part 5e501e411c2c.03.7f.00.01.01.00.5d.d4 5e501e411008.03.7f.00.01.01.00.5d.d4
+R csduv 2 "/home/jdc183/EECS301/lab3/Vlog/RegA_S/rega/rega" 1 mgc_symbol 5e501e410f8d.03.7f.00.01.01.01.5d.d4 5e501e410f8d.03.7f.00.01.01.00.5d.d4
+R csduv 5 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/part" 2 Eddm_part 5e5032e1b566.03.7f.00.01.01.00.10.72 5e5032e1aa88.03.7f.00.01.01.00.10.72
+R csduv 6 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/regq" 1 mgc_symbol 5e5032e1aa12.03.7f.00.01.01.01.10.72 5e5032e1aa12.03.7f.00.01.01.00.10.72
+R csduv 9 "/home/jdc183/EECS301/lab3/Vlog/ALU_S/alu/part" 2 Eddm_part 5e568f4ade68.03.7f.00.01.01.00.75.a8 5e568f4ad127.03.7f.00.01.01.00.75.a8
+R csduv 10 "/home/jdc183/EECS301/lab3/Vlog/ALU_S/alu/alu" 1 mgc_symbol 5e568f4ad0ca.03.7f.00.01.01.01.75.a8 5e568f4ad0ca.03.7f.00.01.01.00.75.a8
 O 5
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "/home/jdc183/EECS301/lab3/TopModel/schematic" 1 mgc_schematic 5e501f14a7a5.03.7f.00.01.01.01.61.fa 5e501f14a7a5.03.7f.00.01.01.00.61.fa
@@ -20,15 +29,6 @@ R csduv 6 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/regq" 1 mgc_symbol 5e5032e
 R csduv 7 "/home/jdc183/EECS301/lab3/Vlog/ALU_S/adder/part" 2 Eddm_part 5e568b0a046a.03.7f.00.01.01.00.70.cb 5e568b09e894.03.7f.00.01.01.00.70.cb
 R csduv 8 "/home/jdc183/EECS301/lab3/Vlog/ALU_S/adder/adder" 1 mgc_symbol 5e568b09e810.03.7f.00.01.01.01.70.cb 5e568b09e810.03.7f.00.01.01.00.70.cb
 O 4
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "/home/jdc183/EECS301/lab3/TopModel/schematic" 1 mgc_schematic 5e501f14a7a5.03.7f.00.01.01.01.61.fa 5e501f14a7a5.03.7f.00.01.01.00.61.fa
-R csduv 1 "/home/jdc183/EECS301/lab3/Vlog/RegA_S/rega/part" 2 Eddm_part 5e501e411c2c.03.7f.00.01.01.00.5d.d4 5e501e411008.03.7f.00.01.01.00.5d.d4
-R csduv 2 "/home/jdc183/EECS301/lab3/Vlog/RegA_S/rega/rega" 1 mgc_symbol 5e501e410f8d.03.7f.00.01.01.01.5d.d4 5e501e410f8d.03.7f.00.01.01.00.5d.d4
-R csduv 3 "/home/jdc183/EECS301/lab3/Vlog/Adder_S/adder/part" 2 Eddm_part 5e50239da5f5.03.7f.00.01.01.00.07.0f 5e50239d9d2a.03.7f.00.01.01.00.07.0f
-R csduv 4 "/home/jdc183/EECS301/lab3/Vlog/Adder_S/adder/adder" 1 mgc_symbol 5e50239d9cc2.03.7f.00.01.01.01.07.0f 5e50239d9cc2.03.7f.00.01.01.00.07.0f
-R csduv 5 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/part" 2 Eddm_part 5e5032e1b566.03.7f.00.01.01.00.10.72 5e5032e1aa88.03.7f.00.01.01.00.10.72
-R csduv 6 "/home/jdc183/EECS301/lab3/Vlog/RegQ_S/regq/regq" 1 mgc_symbol 5e5032e1aa12.03.7f.00.01.01.01.10.72 5e5032e1aa12.03.7f.00.01.01.00.10.72
-O 3
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "/home/jdc183/EECS301/lab3/TopModel/schematic" 1 mgc_schematic 5e501f14a7a5.03.7f.00.01.01.01.61.fa 5e501f14a7a5.03.7f.00.01.01.00.61.fa
 R csduv 1 "/home/jdc183/EECS301/lab3/Vlog/RegA_S/rega/part" 2 Eddm_part 5e501e411c2c.03.7f.00.01.01.00.5d.d4 5e501e411008.03.7f.00.01.01.00.5d.d4

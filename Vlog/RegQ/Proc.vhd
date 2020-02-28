@@ -2,7 +2,7 @@
 -- 
 -- Definition of  regq
 -- 
---      Fri Feb 21 14:10:33 2020
+--      Fri Feb 28 09:38:09 2020
 --      
 --      LeonardoSpectrum Level 3, 2009a.6
 -- 
@@ -175,11 +175,26 @@ entity regq is
       clk : IN std_logic ;
       c1 : IN std_logic ;
       c2 : IN std_logic ;
-      ia : IN std_logic_vector (3 DOWNTO 0) ;
-      ib : IN std_logic_vector (3 DOWNTO 0) ;
-      ic : IN std_logic_vector (3 DOWNTO 0) ;
-      id : IN std_logic_vector (3 DOWNTO 0) ;
-      q : OUT std_logic_vector (3 DOWNTO 0)) ;
+      ia0 : IN std_logic ;
+      ia1 : IN std_logic ;
+      ia2 : IN std_logic ;
+      ia3 : IN std_logic ;
+      ib0 : IN std_logic ;
+      ib1 : IN std_logic ;
+      ib2 : IN std_logic ;
+      ib3 : IN std_logic ;
+      ic0 : IN std_logic ;
+      ic1 : IN std_logic ;
+      ic2 : IN std_logic ;
+      ic3 : IN std_logic ;
+      id0 : IN std_logic ;
+      id1 : IN std_logic ;
+      id2 : IN std_logic ;
+      id3 : IN std_logic ;
+      q0 : OUT std_logic ;
+      q1 : OUT std_logic ;
+      q2 : OUT std_logic ;
+      q3 : OUT std_logic) ;
 end regq ;
 
 architecture INTERFACE of regq is
@@ -187,32 +202,32 @@ architecture INTERFACE of regq is
       nx149, nx154, nx156, nx161, nx163, nx171: std_logic ;
 
 begin
-   reg_q_0 : dff port map ( Q=>q(0), QB=>OPEN, D=>nx28, CLK=>clk);
+   reg_q_0 : dff port map ( Q=>q3, QB=>OPEN, D=>nx28, CLK=>clk);
    ix29 : nand02_2x port map ( Y=>nx28, A0=>nx136, A1=>nx139);
-   ix137 : aoi32 port map ( Y=>nx136, A0=>id(0), A1=>c1, A2=>c2, B0=>ia(0), 
-      B1=>nx18);
+   ix137 : aoi32 port map ( Y=>nx136, A0=>id3, A1=>c1, A2=>c2, B0=>ia3, B1=>
+      nx18);
    ix19 : nor02_2x port map ( Y=>nx18, A0=>c1, A1=>c2);
-   ix140 : aoi32 port map ( Y=>nx139, A0=>ib(0), A1=>nx141, A2=>c2, B0=>
-      ic(0), B1=>nx171);
+   ix140 : aoi32 port map ( Y=>nx139, A0=>ib3, A1=>nx141, A2=>c2, B0=>ic3, 
+      B1=>nx171);
    ix142 : inv02 port map ( Y=>nx141, A=>c1);
-   reg_q_1 : dff port map ( Q=>q(1), QB=>OPEN, D=>nx48, CLK=>clk);
+   reg_q_1 : dff port map ( Q=>q2, QB=>OPEN, D=>nx48, CLK=>clk);
    ix49 : nand02_2x port map ( Y=>nx48, A0=>nx147, A1=>nx149);
-   ix148 : aoi32 port map ( Y=>nx147, A0=>id(1), A1=>c1, A2=>c2, B0=>ia(1), 
-      B1=>nx18);
-   ix150 : aoi32 port map ( Y=>nx149, A0=>ib(1), A1=>nx141, A2=>c2, B0=>
-      ic(1), B1=>nx171);
-   reg_q_2 : dff port map ( Q=>q(2), QB=>OPEN, D=>nx68, CLK=>clk);
+   ix148 : aoi32 port map ( Y=>nx147, A0=>id2, A1=>c1, A2=>c2, B0=>ia2, B1=>
+      nx18);
+   ix150 : aoi32 port map ( Y=>nx149, A0=>ib2, A1=>nx141, A2=>c2, B0=>ic2, 
+      B1=>nx171);
+   reg_q_2 : dff port map ( Q=>q1, QB=>OPEN, D=>nx68, CLK=>clk);
    ix69 : nand02_2x port map ( Y=>nx68, A0=>nx154, A1=>nx156);
-   ix155 : aoi32 port map ( Y=>nx154, A0=>id(2), A1=>c1, A2=>c2, B0=>ia(2), 
-      B1=>nx18);
-   ix157 : aoi32 port map ( Y=>nx156, A0=>ib(2), A1=>nx141, A2=>c2, B0=>
-      ic(2), B1=>nx171);
-   reg_q_3 : dff port map ( Q=>q(3), QB=>OPEN, D=>nx88, CLK=>clk);
+   ix155 : aoi32 port map ( Y=>nx154, A0=>id1, A1=>c1, A2=>c2, B0=>ia1, B1=>
+      nx18);
+   ix157 : aoi32 port map ( Y=>nx156, A0=>ib1, A1=>nx141, A2=>c2, B0=>ic1, 
+      B1=>nx171);
+   reg_q_3 : dff port map ( Q=>q0, QB=>OPEN, D=>nx88, CLK=>clk);
    ix89 : nand02_2x port map ( Y=>nx88, A0=>nx161, A1=>nx163);
-   ix162 : aoi32 port map ( Y=>nx161, A0=>id(3), A1=>c1, A2=>c2, B0=>ia(3), 
-      B1=>nx18);
-   ix164 : aoi32 port map ( Y=>nx163, A0=>ib(3), A1=>nx141, A2=>c2, B0=>
-      ic(3), B1=>nx171);
+   ix162 : aoi32 port map ( Y=>nx161, A0=>id0, A1=>c1, A2=>c2, B0=>ia0, B1=>
+      nx18);
+   ix164 : aoi32 port map ( Y=>nx163, A0=>ib0, A1=>nx141, A2=>c2, B0=>ic0, 
+      B1=>nx171);
    ix3 : nor02ii port map ( Y=>nx2, A0=>c2, A1=>c1);
    ix170 : buf02 port map ( Y=>nx171, A=>nx2);
 end INTERFACE ;
