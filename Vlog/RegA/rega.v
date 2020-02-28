@@ -1,22 +1,22 @@
 
-module rega(clk,c1,c2, ia, ib, ic, id, q);
+module rega(clk,c1,c2, ia, q);
 input	clk,c1,c2;
-input   [3:0]  ia, ib, ic, id;
+input   [3:0]  ia;
 output	[3:0]	q;
 reg	[3:0]	q;
 
 
 
-	parameter	LD0=2'b00, LD1=2'b01, LD2=2'b10,LD3=2'b11;
-
+	parameter	Hold=2'b00, Load=2'b01, Shift=2'b10, Reset=2'b11;
+	
 	always @( posedge clk)
 	begin
 
 		case({c1,c2})
-		LD0: q=ia;
-		LD1: q=ib;
-		LD2: q=ic;
-		LD3: q=id;
+		Load: q=ia;
+		Shift: q={q[3],q}>>1;
+		Hold: ;
+		Reset: q=b'0000;
 		endcase
 	end
 
