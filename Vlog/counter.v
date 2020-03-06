@@ -6,16 +6,16 @@ output	out;
 reg	[1:0] count;
 
 
-	always @(posedge start, c)
-	begin
+always @(posedge start, c)
+begin
     if(start == 1):
-      count = b'00;
+      count = 2'b00;
       out = 0;
     if(c == 1):
-      count = count + b'01;
-      if(count == b'11):
-        count = b'00;
+      count = count + 2'b01;
+	if(count == 2'b11):
+        count = 2'b00;
         out = 1;		
-	end
+end
 
 endmodule
